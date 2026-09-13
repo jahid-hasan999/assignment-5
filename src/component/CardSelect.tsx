@@ -1,7 +1,7 @@
 import { use, useState } from 'react';
 import Card from './Card';
 import type { CardType } from '../CardType';
-
+import Sidebar from './Sidebar';
 
 
 interface CardListProps {
@@ -25,6 +25,15 @@ const CardList = ({ technologiesPromise }: CardListProps) => {
 
     setSelectedStack([...selectedStack, tech]);
   };
+
+  const handleRemove = (id: number) => {
+    setSelectedStack(selectedStack.filter(item => item.id !== id));
+  };
+
+  //remove all need
+  const handleRemoveAll = () => {
+    setSelectedStack([]);
+  };
  
 
   return (
@@ -45,6 +54,13 @@ const CardList = ({ technologiesPromise }: CardListProps) => {
         })}
       </div>
 
+      <div className="lg:col-span-1">
+        <Sidebar
+          selectedStack={selectedStack}
+          onRemove={handleRemove}
+          onRemoveAll={handleRemoveAll}
+        />
+      </div>
     </div>
   );
 };
