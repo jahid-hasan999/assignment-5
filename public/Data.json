@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "React",
+    "category": "Frontend",
+    "description": "A popular JavaScript library for building component-based user interfaces.",
+    "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg",
+    "rating": 4.9,
+    "difficulty": "Intermediate",
+    "badge": "Popular"
+  },
+  {
+    "id": 2,
+    "name": "Node.js",
+    "category": "Backend",
+    "description": "Cross-platform JavaScript runtime environment for building fast backend services.",
+    "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg",
+    "rating": 4.7,
+    "difficulty": "Intermediate",
+    "badge": "Essential"
+  },
+  {
+    "id": 3,
+    "name": "TypeScript",
+    "category": "Language",
+    "description": "Strongly typed programming language that builds on JavaScript for scalable apps.",
+    "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg",
+    "rating": 4.8,
+    "difficulty": "Intermediate",
+    "badge": "High Demand"
+  },
+  {
+    "id": 4,
+    "name": "Tailwind CSS",
+    "category": "Styling",
+    "description": "A utility-first CSS framework for rapidly building custom user interfaces.",
+    "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-original.svg",
+    "rating": 4.9,
+    "difficulty": "Beginner-Friendly",
+    "badge": "Fast"
+  },
+  {
+    "id": 5,
+    "name": "PostgreSQL",
+    "category": "Database",
+    "description": "Powerful, open-source object-relational database system with high reliability.",
+    "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg",
+    "rating": 4.8,
+    "difficulty": "Intermediate",
+    "badge": "Robust"
+  },
+  {
+    "id": 6,
+    "name": "Docker",
+    "category": "DevOps",
+    "description": "Platform for developing, shipping, and running applications inside containers.",
+    "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg",
+    "rating": 4.7,
+    "difficulty": "Intermediate",
+    "badge": "Containers"
+  },
+  {
+    "id": 7,
+    "name": "Next.js",
+    "category": "Frontend",
+    "description": "React framework for production providing server-side rendering and static site generation.",
+    "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg",
+    "rating": 4.8,
+    "difficulty": "Intermediate",
+    "badge": "Fullstack"
+  },
+  {
+    "id": 8,
+    "name": "Python",
+    "category": "Language",
+    "description": "Versatile programming language known for readability, web dev, and AI/ML.",
+    "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
+    "rating": 4.9,
+    "difficulty": "Beginner-Friendly",
+    "badge": "Versatile"
+  },
+  {
+    "id": 9,
+    "name": "MongoDB",
+    "category": "Database",
+    "description": "NoSQL document database designed for modern web applications and flexibility.",
+    "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg",
+    "rating": 4.5,
+    "difficulty": "Beginner-Friendly",
+    "badge": "Scalable"
+  },
+  {
+    "id": 10,
+    "name": "Git",
+    "category": "Tools",
+    "description": "Distributed version control system to track changes in source code during development.",
+    "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg",
+    "rating": 4.9,
+    "difficulty": "Beginner-Friendly",
+    "badge": "Essential"
+  },
+  {
+    "id": 11,
+    "name": "GraphQL",
+    "category": "Backend",
+    "description": "Query language for APIs and runtime for fulfilling those queries with existing data.",
+    "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/graphql/graphql-plain.svg",
+    "rating": 4.6,
+    "difficulty": "Advanced",
+    "badge": "Modern API"
+  },
+  {
+    "id": 12,
+    "name": "Kubernetes",
+    "category": "DevOps",
+    "description": "Open-source system for automating deployment, scaling, and management of containerized apps.",
+    "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/kubernetes/kubernetes-plain.svg",
+    "rating": 4.6,
+    "difficulty": "Advanced",
+    "badge": "Orchestration"
+  }
+]
