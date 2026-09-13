@@ -7,6 +7,8 @@ import type { CardType } from './CardType';
 import { Suspense } from 'react';
 import CardList from './component/CardSelect';
 import Futter from './component/Futter';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 
 // Data Fetching Function
@@ -22,10 +24,10 @@ function App() {
  
 
   return (
-    <> 
+    <>
       <Nav />
       <HeroSection />
-      
+
       <div className="min-h-screen bg-gray-50 p-6 md:p-12">
         <div className="container mx-auto">
           <h1 className="text-3xl font-extrabold  mb-4 text-slate-900">
@@ -52,11 +54,10 @@ function App() {
         >
           <CardList technologiesPromise={technologiesPromise} />
         </Suspense>
-
+        <ToastContainer />
       </div>
-      
-      <Futter/>
 
+      <Futter />
     </>
   );
 }
