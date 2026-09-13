@@ -6,6 +6,7 @@ import type { CardType } from './CardType';
 
 import { Suspense } from 'react';
 import CardList from './component/CardSelect';
+import Futter from './component/Futter';
 
 
 // Data Fetching Function
@@ -52,7 +53,9 @@ function App() {
           <CardList technologiesPromise={technologiesPromise} />
         </Suspense>
 
-     </div>
+      </div>
+      
+      <Futter/>
 
     </>
   );
